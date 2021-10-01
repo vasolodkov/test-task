@@ -1,0 +1,11 @@
+{
+  "env": {
+    "BRANCH_NAME":"master",
+    "COMPOSE_PROJECT_NAME":"project",
+    "RABBITMQ_DEFAULT_PASS":"test",
+    "RABBITMQ_DEFAULT_USER":"user",
+    "RABBITMQ_DEFAULT_VHOST":"vhost",
+    "RABBITMQ_CONNECTION":"amqp://user:test@rabbitmq:5672/vhost",
+    "REDIS_CONNECTION":"redis:6379"
+  }
+}
